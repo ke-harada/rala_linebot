@@ -1,0 +1,19 @@
+.search {
+  margin: 10px 0px;
+  padding: 20px 20px 5px 20px;
+  background-color: #EEFFFF;
+}
+
+.search label {
+  margin-right: 5px;
+  margin-bottom: 0px;
+  padding: 6px 0px;
+  height: 38px;
+  text-align: center;
+  border: solid 1px #000000;
+  background: #EEEEEE;
+}
+
+.page-link {
+  border: none;
+}

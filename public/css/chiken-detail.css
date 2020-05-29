@@ -1,0 +1,55 @@
+.table td {
+  vertical-align: middle;
+}
+
+.detail {
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.detail label {
+  margin-right: 5px;
+  margin-bottom: 0px;
+  padding: 6px 0px;
+  height: 38px;
+  text-align: center;
+  border: solid 1px #000000;
+  background: #EEEEEE;
+}
+
+.detail span {
+  margin-left: 5px;
+  padding: 6px 0px;
+  height: 38px;
+  text-align: center;
+}
+
+.question-send {
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+
+.question-send label {
+  margin-right: 5px;
+  margin-bottom: 0px;
+  padding: 6px 0px;
+  height: 38px;
+  text-align: center;
+  border: solid 1px #000000;
+  background: #EEEEEE;
+}
+
+.question-send-target {
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+
+.question-send-target label {
+  margin-right: 5px;
+  margin-bottom: 0px;
+  padding: 6px 0px;
+  height: 38px;
+  text-align: center;
+  border: solid 1px #000000;
+  background: #EEEEEE;
+}

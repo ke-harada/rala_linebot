@@ -1,0 +1,21 @@
+.main {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.main label {
+  margin-right: 5px;
+  margin-bottom: 0px;
+  padding: 6px 0px;
+  height: 38px;
+  text-align: center;
+  border: solid 1px #000000;
+  background: #EEEEEE;
+}
+
+.main span {
+  margin-left: 5px;
+  padding: 6px 0px;
+  height: 38px;
+  text-align: center;
+}

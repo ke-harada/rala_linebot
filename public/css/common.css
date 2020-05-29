@@ -1,0 +1,63 @@
+html {
+  height: auto;
+  width: auto;
+}
+
+body {
+  height: auto;
+  width: auto;
+}
+
+.container {
+  width: 1024px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 20px;
+}
+
+.processing {   
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+  height: 100%;
+  display: none;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.header {
+  height: 50px;
+}
+
+input {
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+}
+
+select {
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+}
+
+/* スピンボタン（上下ボタン）を非表示 */
+input[type=date]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+/* クリアボタン（×ボタン）を非表示 */
+/*input[type="date"]::-webkit-clear-button{
+  -webkit-appearance: none;
+}*/
+
+/* カレンダーのインジケータ（▼）を非表示 */
+/*input[type=date]::-webkit-calendar-picker-indicator {
+  color: transparent;
+  position: relative;
+}*/
+
+/* fontAwesomeのカレンダーアイコンをインジケータにする */
+/*input[type=date]::-webkit-calendar-picker-indicator:before {
+}*/
+
+/*input[type=date]::-webkit-calendar-picker-indicator{
+}*/

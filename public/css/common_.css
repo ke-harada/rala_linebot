@@ -1,0 +1,48 @@
+html {
+  height: auto;
+  width: auto;
+}
+
+body {
+  height: auto;
+  width: auto;
+}
+
+.container {
+  width: 1024px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 20px;
+}
+
+.header {
+  height: 50px;
+}
+
+input {
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+}
+
+/* スピンボタン（上下ボタン）を非表示 */
+input[type=date]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+/* カレンダーのインジケータ（▼）を非表示 */
+/*input[type=date]::-webkit-calendar-picker-indicator {
+  color: transparent;
+  position: relative;
+}
+*/
+
+/* fontAwesomeのカレンダーアイコンをインジケータにする */
+input[type=date]::-webkit-calendar-picker-indicator:before {
+  color: #666;
+  font-family: FontAwesome;
+  /*content: "\f073";*/ /* fa-calendar */
+  content: "\f133"; /* fa-calendar-o */
+  position: absolute;
+  left: -5px; /* ここら辺はいい感じの塩梅で */
+  top: -5px;  /* ここも */
+}
